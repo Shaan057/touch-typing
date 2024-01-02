@@ -20,6 +20,14 @@
 ### Cheat
 - press '9' key to skip the word.
 
+### views 
+
+- ![Mobile view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210995/touch-typing/Screenshot_373_w4xrl0.png)
+
+
+- ![Desktop view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210994/touch-typing/Screenshot_371_y0xauq.png)
+
+
 ### Visit
 
 ### [Link](https://touch-typing-git-main-shaan057s-projects.vercel.app/)
