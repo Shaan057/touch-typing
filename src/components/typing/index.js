@@ -16,7 +16,7 @@ const Typer = () => {
     const [practiceWords, setPracticeWords] = useState('as sa as sa')
     const [start, setStart] = useState(0)
     const [count, setCount] = useState(2)
-    const [totalSeconds, setTotalSeconds] = useState(20)
+    const [totalSeconds, setTotalSeconds] = useState(300)
     const [isTimerStarted, startTimer] = useState(false)
     const [totalWords, setTotalWords] = useState(0)
     const [correctWords, setCorrectWords] = useState(0)
@@ -38,7 +38,7 @@ const Typer = () => {
     const resetTimer = () => {
         setIsInputCorrect(false)
         setInput('')
-        setTotalSeconds(20)
+        setTotalSeconds(300)
         setWordsType(wordsTypeObj[0].type)
         setPracticeWords('as sa as sa')
         setCount(2)
