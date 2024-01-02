@@ -9,13 +9,13 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  height: 7vh;
+  height: 6vh;
   color: white;
   background-color: rgb(63, 59, 59);
 }
 
 .botton-div {
-  height: 93vh;
+  height: 94vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -132,4 +132,18 @@
 .keys:hover {
   color: red;
   background-color: white;
+}
+
+.button {
+  font-weight: 600;
+  position: relative;
+  background-color: green;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
 }
