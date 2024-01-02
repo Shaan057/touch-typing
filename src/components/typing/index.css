@@ -64,6 +64,8 @@
   margin: 20px;
   padding: 20px;
   font-size: 20px;
+  outline: none;
+  border: none;
 }
 
 .result-container {
