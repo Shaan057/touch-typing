@@ -82,7 +82,6 @@ const Typer = () => {
         }
     }
 
-
     const randommize = () => {
         const wordsList = words.split('')
         for (let i = wordsList.length - 1; i > 0; i--) {
