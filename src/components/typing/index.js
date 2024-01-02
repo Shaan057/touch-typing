@@ -28,7 +28,7 @@ const Typer = () => {
 
     useEffect(() => {
         if (isTimerStarted) { inputRef.current.focus() }
-    })
+    }, [isTimerStarted])
 
     if (isTimerStarted && totalSeconds === 0) {
         clearInterval(uniqueId)
@@ -41,17 +41,14 @@ const Typer = () => {
         setTotalSeconds(20)
         setWordsType(wordsTypeObj[0].type)
         setPracticeWords('as sa as sa')
-        setCount(0)
+        setCount(2)
         setTotalWords(0)
         setCorrectWords(0)
         setKeysTyped(0)
         setSession(1)
         setUniqueId(null)
         setInputKey(null)
-    }
-
-    if (totalSeconds === 0) {
-        resetTimer()
+        clearInterval(uniqueId)
     }
 
     let startCountDown = useCallback(() => {
@@ -64,6 +61,17 @@ const Typer = () => {
             timeFunction()
             , 1000);
     }, [])
+
+    if (totalSeconds === 0) {
+        resetTimer()
+        startTimer(false)
+    }
+    if (session === 13) {
+        resetTimer()
+        startTimer(false)
+    }
+
+
 
     const onChangeWordType = (event) => {
         const { value } = event.target
