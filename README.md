@@ -22,10 +22,10 @@
 
 ### views 
 
-- ![Mobile view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210995/touch-typing/Screenshot_373_w4xrl0.png)
+ ![Mobile view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210995/touch-typing/Screenshot_373_w4xrl0.png)
 
 
-- ![Desktop view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210994/touch-typing/Screenshot_371_y0xauq.png)
+ ![Desktop view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704210994/touch-typing/Screenshot_371_y0xauq.png)
 
 
 ### Visit
