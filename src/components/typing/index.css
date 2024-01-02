@@ -1,0 +1,132 @@
+.main-div {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 45px;
+  color: white;
+  background-color: rgb(63, 59, 59);
+}
+
+.botton-div {
+  height: calc(100vh - 45px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(81, 46, 114);
+  padding-bottom: 30px;
+}
+
+.main-heading {
+  color: wheat;
+  margin: 10px;
+  position: relative;
+  top: 30px;
+}
+.session {
+  position: relative;
+  top: 30px;
+  color: white;
+  font-weight: 500;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 25px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    bottom: -10px;
+  }
+}
+
+.words {
+  user-select: none;
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+.input {
+  width: 80%;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  color: white;
+}
+
+.result-heading {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .result-heading {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+}
+
+.select-element {
+  position: relative;
+  top: 40px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  border: none;
+}
+
+.keys-container {
+  position: relative;
+  top: 70px;
+  border: 1px solid white;
+  width: 80%;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.keys {
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+}
+.keysPressed {
+  color: red;
+  background-color: white;
+  border: none;
+  scale: 1.1;
+}
+.keys:hover {
+  color: red;
+  background-color: white;
+}
